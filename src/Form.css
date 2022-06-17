@@ -1,0 +1,87 @@
+label {
+  color: #383838;
+  text-transform: capitalize;
+  margin-right: 10px;
+  display: none;
+}
+
+input {
+  border-radius: 15px;
+  padding: 5px 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  background-color: #c2c1c1;
+  margin-top: 10px;
+  text-align: center;
+}
+
+input:valid {
+  background-color: #c2c1c1;
+}
+
+.form-input::placeholder {
+  color: rgb(107, 93, 93);
+  font-family: "Overpass Mono", monospace;
+}
+
+.form-button {
+  background-color: rgb(3, 3, 3);
+  font-family: "Overpass Mono", monospace;
+  color: white;
+  position: absolute;
+  top: 107%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  padding: 5px 8px;
+  border-color: white;
+  border-width: 4px;
+  border-style: ridge;
+  border-block-end-color: gray;
+  border-block-start-color: gray;
+  border-left-color: gray;
+  border-right: gray;
+  border-radius: 15px;
+}
+
+.form-button:hover {
+  background-color: rgb(3, 3, 3);
+  font-family: "Overpass Mono", monospace;
+  color: white;
+  position: absolute;
+  top: 107%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  padding: 5px 8px;
+  border-color: white;
+  border-width: 4px;
+  border-style: groove;
+  border-block-end-color: gray;
+  border-block-start-color: gray;
+  border-left-color: gray;
+  border-right: gray;
+  border-radius: 15px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid green;
+  -webkit-text-fill-color: black;
+  -webkit-box-shadow: 0 0 0px 1000px #c2c1c1 inset;
+  transition: background-color 5000s ease-in-out 0s;
+  border-radius: 15px;
+  padding: 5px 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  background-color: #c2c1c1;
+  margin-top: 10px;
+  text-align: center;
+}
